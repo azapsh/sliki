@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EB545588C6287ABC22959F7 /* Pods_sliki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77C85FA28E2A8BC4076F04C /* Pods_sliki.framework */; };
+		8B0190FA2533086300A5E485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0190F92533086300A5E485 /* AppDelegate.swift */; };
+		8B0190FE2533086300A5E485 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0190FD2533086300A5E485 /* ViewController.swift */; };
+		8B0191012533086300A5E485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0190FF2533086300A5E485 /* Main.storyboard */; };
+		8B0191032533086400A5E485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0191022533086400A5E485 /* Assets.xcassets */; };
+		8B0191062533086400A5E485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0191042533086400A5E485 /* LaunchScreen.storyboard */; };
+		8B0191112533086400A5E485 /* slikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0191102533086400A5E485 /* slikiTests.swift */; };
+		8B01911C2533086400A5E485 /* slikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01911B2533086400A5E485 /* slikiUITests.swift */; };
+		8B0191342533095100A5E485 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0191332533095100A5E485 /* MainViewController.swift */; };
+		CE538C7C27912D666FF9976E /* Pods_sliki_slikiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EC025B5FC476DB26E9D78C /* Pods_sliki_slikiUITests.framework */; };
+		D7AB304D9CB71EE0AA77ABF9 /* Pods_slikiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DA4CD57A811B9A8B415B6A /* Pods_slikiTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B01910D2533086400A5E485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0190EE2533086300A5E485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0190F52533086300A5E485;
+			remoteInfo = sliki;
+		};
+		8B0191182533086400A5E485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0190EE2533086300A5E485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0190F52533086300A5E485;
+			remoteInfo = sliki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E9BFA5DB9F35416218C98D /* Pods-sliki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliki.debug.xcconfig"; path = "Target Support Files/Pods-sliki/Pods-sliki.debug.xcconfig"; sourceTree = "<group>"; };
+		1750B331C4E98BD78E25BBEC /* Pods-slikiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slikiTests.debug.xcconfig"; path = "Target Support Files/Pods-slikiTests/Pods-slikiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E20A555BB978FAC87EDF2B5 /* Pods-slikiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slikiTests.release.xcconfig"; path = "Target Support Files/Pods-slikiTests/Pods-slikiTests.release.xcconfig"; sourceTree = "<group>"; };
+		74DA4CD57A811B9A8B415B6A /* Pods_slikiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slikiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		791E21EB4044ADB2294D743E /* Pods-sliki-slikiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliki-slikiUITests.debug.xcconfig"; path = "Target Support Files/Pods-sliki-slikiUITests/Pods-sliki-slikiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80EC025B5FC476DB26E9D78C /* Pods_sliki_slikiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sliki_slikiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0190F62533086300A5E485 /* sliki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sliki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0190F92533086300A5E485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B0190FD2533086300A5E485 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B0191002533086300A5E485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B0191022533086400A5E485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B0191052533086400A5E485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B0191072533086400A5E485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B01910C2533086400A5E485 /* slikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0191102533086400A5E485 /* slikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slikiTests.swift; sourceTree = "<group>"; };
+		8B0191122533086400A5E485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0191172533086400A5E485 /* slikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B01911B2533086400A5E485 /* slikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slikiUITests.swift; sourceTree = "<group>"; };
+		8B01911D2533086400A5E485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0191332533095100A5E485 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BAB65E04368EF9A7162FFBA3 /* Pods-sliki-slikiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliki-slikiUITests.release.xcconfig"; path = "Target Support Files/Pods-sliki-slikiUITests/Pods-sliki-slikiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E77C85FA28E2A8BC4076F04C /* Pods_sliki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sliki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2359C70B8BA07FA6E5623CC /* Pods-sliki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sliki.release.xcconfig"; path = "Target Support Files/Pods-sliki/Pods-sliki.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B0190F32533086300A5E485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB545588C6287ABC22959F7 /* Pods_sliki.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0191092533086400A5E485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AB304D9CB71EE0AA77ABF9 /* Pods_slikiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0191142533086400A5E485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE538C7C27912D666FF9976E /* Pods_sliki_slikiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA859512AC2F8A2A7D51EA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E77C85FA28E2A8BC4076F04C /* Pods_sliki.framework */,
+				80EC025B5FC476DB26E9D78C /* Pods_sliki_slikiUITests.framework */,
+				74DA4CD57A811B9A8B415B6A /* Pods_slikiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		506728942055EAEBE0AB229C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03E9BFA5DB9F35416218C98D /* Pods-sliki.debug.xcconfig */,
+				F2359C70B8BA07FA6E5623CC /* Pods-sliki.release.xcconfig */,
+				791E21EB4044ADB2294D743E /* Pods-sliki-slikiUITests.debug.xcconfig */,
+				BAB65E04368EF9A7162FFBA3 /* Pods-sliki-slikiUITests.release.xcconfig */,
+				1750B331C4E98BD78E25BBEC /* Pods-slikiTests.debug.xcconfig */,
+				2E20A555BB978FAC87EDF2B5 /* Pods-slikiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B0190ED2533086300A5E485 = {
+			isa = PBXGroup;
+			children = (
+				8B0190F82533086300A5E485 /* sliki */,
+				8B01910F2533086400A5E485 /* slikiTests */,
+				8B01911A2533086400A5E485 /* slikiUITests */,
+				8B0190F72533086300A5E485 /* Products */,
+				506728942055EAEBE0AB229C /* Pods */,
+				4FA859512AC2F8A2A7D51EA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B0190F72533086300A5E485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0190F62533086300A5E485 /* sliki.app */,
+				8B01910C2533086400A5E485 /* slikiTests.xctest */,
+				8B0191172533086400A5E485 /* slikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B0190F82533086300A5E485 /* sliki */ = {
+			isa = PBXGroup;
+			children = (
+				8B0191322533093700A5E485 /* Modules */,
+				8B0190F92533086300A5E485 /* AppDelegate.swift */,
+				8B0190FD2533086300A5E485 /* ViewController.swift */,
+				8B0190FF2533086300A5E485 /* Main.storyboard */,
+				8B0191022533086400A5E485 /* Assets.xcassets */,
+				8B0191042533086400A5E485 /* LaunchScreen.storyboard */,
+				8B0191072533086400A5E485 /* Info.plist */,
+			);
+			path = sliki;
+			sourceTree = "<group>";
+		};
+		8B01910F2533086400A5E485 /* slikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B0191102533086400A5E485 /* slikiTests.swift */,
+				8B0191122533086400A5E485 /* Info.plist */,
+			);
+			path = slikiTests;
+			sourceTree = "<group>";
+		};
+		8B01911A2533086400A5E485 /* slikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B01911B2533086400A5E485 /* slikiUITests.swift */,
+				8B01911D2533086400A5E485 /* Info.plist */,
+			);
+			path = slikiUITests;
+			sourceTree = "<group>";
+		};
+		8B0191322533093700A5E485 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8B0191332533095100A5E485 /* MainViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B0190F52533086300A5E485 /* sliki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0191202533086400A5E485 /* Build configuration list for PBXNativeTarget "sliki" */;
+			buildPhases = (
+				AC94B3B0DAF6C13555BE5731 /* [CP] Check Pods Manifest.lock */,
+				8B0190F22533086300A5E485 /* Sources */,
+				8B0190F32533086300A5E485 /* Frameworks */,
+				8B0190F42533086300A5E485 /* Resources */,
+				EFAD57B426741F88726CC5D1 /* [CP] Embed Pods Frameworks */,
+				569974F6E6BD514421E68F36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sliki;
+			productName = sliki;
+			productReference = 8B0190F62533086300A5E485 /* sliki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B01910B2533086400A5E485 /* slikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0191232533086400A5E485 /* Build configuration list for PBXNativeTarget "slikiTests" */;
+			buildPhases = (
+				3BF45375952CF536652E514F /* [CP] Check Pods Manifest.lock */,
+				8B0191082533086400A5E485 /* Sources */,
+				8B0191092533086400A5E485 /* Frameworks */,
+				8B01910A2533086400A5E485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B01910E2533086400A5E485 /* PBXTargetDependency */,
+			);
+			name = slikiTests;
+			productName = slikiTests;
+			productReference = 8B01910C2533086400A5E485 /* slikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B0191162533086400A5E485 /* slikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0191262533086400A5E485 /* Build configuration list for PBXNativeTarget "slikiUITests" */;
+			buildPhases = (
+				61EC51EDF006927106823391 /* [CP] Check Pods Manifest.lock */,
+				8B0191132533086400A5E485 /* Sources */,
+				8B0191142533086400A5E485 /* Frameworks */,
+				8B0191152533086400A5E485 /* Resources */,
+				BC81AA75444C35DB253CD3E2 /* [CP] Embed Pods Frameworks */,
+				88046319233CDB199FC210B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B0191192533086400A5E485 /* PBXTargetDependency */,
+			);
+			name = slikiUITests;
+			productName = slikiUITests;
+			productReference = 8B0191172533086400A5E485 /* slikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B0190EE2533086300A5E485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8B0190F52533086300A5E485 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8B01910B2533086400A5E485 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 8B0190F52533086300A5E485;
+					};
+					8B0191162533086400A5E485 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 8B0190F52533086300A5E485;
+					};
+				};
+			};
+			buildConfigurationList = 8B0190F12533086300A5E485 /* Build configuration list for PBXProject "sliki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B0190ED2533086300A5E485;
+			productRefGroup = 8B0190F72533086300A5E485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B0190F52533086300A5E485 /* sliki */,
+				8B01910B2533086400A5E485 /* slikiTests */,
+				8B0191162533086400A5E485 /* slikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B0190F42533086300A5E485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0191062533086400A5E485 /* LaunchScreen.storyboard in Resources */,
+				8B0191032533086400A5E485 /* Assets.xcassets in Resources */,
+				8B0191012533086300A5E485 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B01910A2533086400A5E485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0191152533086400A5E485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BF45375952CF536652E514F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slikiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569974F6E6BD514421E68F36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sliki/Pods-sliki-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sliki/Pods-sliki-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sliki/Pods-sliki-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61EC51EDF006927106823391 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sliki-slikiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88046319233CDB199FC210B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sliki-slikiUITests/Pods-sliki-slikiUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sliki-slikiUITests/Pods-sliki-slikiUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sliki-slikiUITests/Pods-sliki-slikiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC94B3B0DAF6C13555BE5731 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sliki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC81AA75444C35DB253CD3E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sliki-slikiUITests/Pods-sliki-slikiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sliki-slikiUITests/Pods-sliki-slikiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sliki-slikiUITests/Pods-sliki-slikiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFAD57B426741F88726CC5D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sliki/Pods-sliki-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sliki/Pods-sliki-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sliki/Pods-sliki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0190F22533086300A5E485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0191342533095100A5E485 /* MainViewController.swift in Sources */,
+				8B0190FE2533086300A5E485 /* ViewController.swift in Sources */,
+				8B0190FA2533086300A5E485 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0191082533086400A5E485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0191112533086400A5E485 /* slikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0191132533086400A5E485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B01911C2533086400A5E485 /* slikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B01910E2533086400A5E485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0190F52533086300A5E485 /* sliki */;
+			targetProxy = 8B01910D2533086400A5E485 /* PBXContainerItemProxy */;
+		};
+		8B0191192533086400A5E485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0190F52533086300A5E485 /* sliki */;
+			targetProxy = 8B0191182533086400A5E485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B0190FF2533086300A5E485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B0191002533086300A5E485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B0191042533086400A5E485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B0191052533086400A5E485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B01911E2533086400A5E485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B01911F2533086400A5E485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B0191212533086400A5E485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9BFA5DB9F35416218C98D /* Pods-sliki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU923WJZQ;
+				INFOPLIST_FILE = sliki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xsdk.app..sliki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B0191222533086400A5E485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2359C70B8BA07FA6E5623CC /* Pods-sliki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU923WJZQ;
+				INFOPLIST_FILE = sliki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xsdk.app..sliki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B0191242533086400A5E485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1750B331C4E98BD78E25BBEC /* Pods-slikiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU923WJZQ;
+				INFOPLIST_FILE = slikiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xsdk.app..slikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sliki.app/sliki";
+			};
+			name = Debug;
+		};
+		8B0191252533086400A5E485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E20A555BB978FAC87EDF2B5 /* Pods-slikiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU923WJZQ;
+				INFOPLIST_FILE = slikiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xsdk.app..slikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sliki.app/sliki";
+			};
+			name = Release;
+		};
+		8B0191272533086400A5E485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791E21EB4044ADB2294D743E /* Pods-sliki-slikiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU923WJZQ;
+				INFOPLIST_FILE = slikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xsdk.app..slikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sliki;
+			};
+			name = Debug;
+		};
+		8B0191282533086400A5E485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB65E04368EF9A7162FFBA3 /* Pods-sliki-slikiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RU923WJZQ;
+				INFOPLIST_FILE = slikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.xsdk.app..slikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sliki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B0190F12533086300A5E485 /* Build configuration list for PBXProject "sliki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B01911E2533086400A5E485 /* Debug */,
+				8B01911F2533086400A5E485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0191202533086400A5E485 /* Build configuration list for PBXNativeTarget "sliki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0191212533086400A5E485 /* Debug */,
+				8B0191222533086400A5E485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0191232533086400A5E485 /* Build configuration list for PBXNativeTarget "slikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0191242533086400A5E485 /* Debug */,
+				8B0191252533086400A5E485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0191262533086400A5E485 /* Build configuration list for PBXNativeTarget "slikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0191272533086400A5E485 /* Debug */,
+				8B0191282533086400A5E485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B0190EE2533086300A5E485 /* Project object */;
+}
